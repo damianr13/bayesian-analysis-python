@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymc = "==5.8.0"
+arviz = "==0.16.1"
+bambi = "==0.13.0"
+pymc-bart = "==0.5.2"
+kulprit = "==0.0.1"
+preliz = "==0.3.6"
+nutpie = "==0.9.1"
+scipy = "==1.11.3"
+numpy = "==1.24.4"
+
+[dev-packages]
+notebook = "==7.0.6"
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.5"
